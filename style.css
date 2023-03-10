@@ -4,6 +4,34 @@
   border: 1px solid black;
 }
 
+header {
+  height: 80px;
+}
+
+
+
+
 .pm-jumbotron {
-  min-height: 600px;
+  
+  min-height: 500px;
+}
+
+
+.pm-img {
+  
+  width: 50%;
+  margin: 0 auto ;
+  /* debug */
+  height: 250px;
+}
+
+  /* debug */
+
+.pm-jumbotron .container-md {
+  
+  height: 250px;
+}
+
+ .row div:not(header div) {
+  height: 200px;
 }
