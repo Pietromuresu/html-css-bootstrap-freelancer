@@ -1,0 +1,9 @@
+.debug {
+  background-color: #c856568f;
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+.pm-jumbotron {
+  min-height: 600px;
+}
