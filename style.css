@@ -25,6 +25,11 @@ header {
   height: 250px;
 }
 
+.pm-card {
+  height: 100%;
+  padding: 10px;
+}
+
   /* debug */
 
 .pm-jumbotron .container-md {
@@ -32,6 +37,3 @@ header {
   height: 250px;
 }
 
- .row div:not(header div) {
-  height: 200px;
-}
