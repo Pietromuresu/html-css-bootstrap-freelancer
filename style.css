@@ -1,11 +1,6 @@
-.debug {
-  background-color: #c856568f;
-  min-height: 50px;
-  border: 1px solid black;
-}
+
 
 /* general */
-
 
 section:nth-child(odd) {
   background-color: #1ABC9C;
@@ -29,25 +24,33 @@ section:nth-child(odd) {
 
 /* /general */
 
-
+/* header  */
 header {
-  height: 80px;
+  background-color: #2C3D50;
+  color: white;
+  min-height: 80px;
 }
 
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+/* /header */
 
-
+/* jumbotron */
 .pm-jumbotron .pm-avatar img {
   height: 250px;
 }
 
+/* /jumbotron */
 
+/* main */
 
 .pm-img {
   
   width: 50%;
   margin: 0 auto ;
-  /* debug */
-  height: 250px;
+  
+  
 }
 
 .pm-card {
@@ -56,9 +59,53 @@ header {
   overflow: hidden;
   
 }
+.pm-footer-top {
+  background-color: #39546D;
+}
 
 .pm-card img {
   border-radius: 10px;
+}
+
+.pm-form input, .pm-form textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+/* /footer */
+
+
+footer .pm-container-icons div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  line-height: 40px;
+  vertical-align: bottom;
+
+}
+
+.pm-container-icons div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.pm-container-icons i {
+  font-size: 20px;
+}
+
+.pm-start-bootstrap {
+  color: #1ABC9C ;
+}
+
+.pm-footer-bottom {
+  background-color: #2C3D50;
+}
+
+.pm-footer-copyright {
+  font-size: 13;
 }
 
   /* debug */
