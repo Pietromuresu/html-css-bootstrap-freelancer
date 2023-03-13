@@ -53,18 +53,33 @@ header {
   
 }
 
+
+
 .pm-card {
+  position: relative;
   height: 100%;
-  padding: 10px;
   overflow: hidden;
-  
-}
-.pm-footer-top {
-  background-color: #39546D;
 }
 
-.pm-card img {
+.pm-card-add {
+  background-color: #1abc9cc5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pm-card:hover .pm-card-add {
+  display: block !important;
+}
+
+.pm-card  i{
+  margin-top: 30%;
+}
+
+
+.pm-card  {
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .pm-form input, .pm-form textarea{
@@ -75,8 +90,13 @@ header {
   padding-left: 0;
 }
 
-/* /footer */
+/* main  */
 
+/* /footer  */
+
+.pm-footer-top {
+  background-color: #39546D;
+}
 
 footer .pm-container-icons div {
   width: 40px;
@@ -108,10 +128,5 @@ footer .pm-container-icons div {
   font-size: 13;
 }
 
-  /* debug */
 
-.pm-jumbotron .container-md {
-  
-  height: 250px;
-}
-
+/* /footer */
