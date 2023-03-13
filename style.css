@@ -4,17 +4,42 @@
   border: 1px solid black;
 }
 
+/* general */
+
+
+section:nth-child(odd) {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.pm-star {
+  height: 50px;
+  width: 40%;
+  margin: 0 auto;
+}
+.pm-star-bar {
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 30%;
+  border: 2px solid ;
+}
+.pm-star i {
+  font-size: 25px;
+}
+
+/* /general */
+
+
 header {
   height: 80px;
 }
 
 
 
-
-.pm-jumbotron {
-  
-  min-height: 500px;
+.pm-jumbotron .pm-avatar img {
+  height: 250px;
 }
+
 
 
 .pm-img {
@@ -28,6 +53,12 @@ header {
 .pm-card {
   height: 100%;
   padding: 10px;
+  overflow: hidden;
+  
+}
+
+.pm-card img {
+  border-radius: 10px;
 }
 
   /* debug */
